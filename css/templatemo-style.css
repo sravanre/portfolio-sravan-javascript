@@ -421,4 +421,21 @@ footer hr
 .aws-icon {
     font-size: 30px;            /* Makes the icon larger
 }
+
+
+.custom-btn {
+    font-size: 16px;       /* Increase the font size */
+    padding: 12px 24px;    /* Add more space inside the button */
+    border-radius: 8px;    /* Make the corners rounded */
+    background-color: #007bff; /* Set the button color */
+    color: white;          /* Set the text color */
+    text-transform: uppercase; /* Optional: Make text uppercase */
+    display: inline-block; /* Ensures proper sizing */
+    transition: all 0.3s ease; /* Adds hover animation */
+}
+
+.custom-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;     /* Remove underline on hover */
+}
    
